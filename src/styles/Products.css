@@ -1,0 +1,69 @@
+
+.banner1{
+    background-image: 
+    url(
+  "../components/assets/umbrella.jpeg");
+}
+.banner2{
+    background-image: 
+    url(
+  "../components/assets/puff.png");
+}
+.banner3{
+    background-image: 
+    url(
+  "../components/assets/bag.jpeg");
+}
+.banner4{
+    background-image: 
+    url(
+  "../components/assets/pillow.jpeg");
+}
+.banner{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+.btn-shop{
+    padding: 12px 24px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color:white;
+    background-color: transparent;
+} 
+
+
+.btn-shop:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+  }
+  
+  .btn-shop:active {
+    transform: scale(0.9);
+  }
+
+.svg{
+    width:15vmin;
+}
+
+.side-info{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-squares{
+   display:flex;
+   flex-direction:row;
+   height:60vmin;
+   width:100%
+
+}

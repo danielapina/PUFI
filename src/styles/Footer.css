@@ -1,0 +1,34 @@
+.container-footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around
+}
+.logo-footer{
+    font-weight: 800;
+}
+
+.footer{
+    font-size: 2vmin;
+}
+
+.footer-right-border{ 
+    border-right: 1px solid rgb(154, 150, 150);
+    padding-right: 8vmin;
+}
+
+.border-top{
+border-top: 2px solid rgb(154, 150, 150);
+padding-top: 8vmin;
+box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.copyright{
+    color:#888888;
+    margin-left: 2vmin;
+}
+
+.follow-sm{
+    display:flex;
+    justify-content:space-around;
+    width:11%;
+}
